@@ -21,11 +21,11 @@
 	"cassandra_contactPoints" : ["your ip"],
 	"cassandra_keyspace" : "acmeair_keyspace",
 
-	"useFlightDataRelatedCaching" : true,
+	"useFlightDataRelatedCaching" : false,
 	
 	"flightDataCacheTTL" :  1200000,
 	"flightDataCacheMaxSize" : 100000,
 	
-	"loggerLevel" : "INFO",
+	"loggerLevel" : "DEBUG",
 	"useDevLogger" : true     
 }

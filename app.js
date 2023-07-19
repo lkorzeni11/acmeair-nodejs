@@ -69,6 +69,7 @@ var loader = new require('./loader/loader.js')(routes, settings);
 
 var app = express();
 var morgan         = require('morgan');
+var morganBody         = require('morgan-body');
 var bodyParser     = require('body-parser');
 var methodOverride = require('method-override');
 var cookieParser = require('cookie-parser')
@@ -86,9 +87,11 @@ app.use(jsonParser);
 app.use(urlencodedParser);
 //parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }));
-
+app.use(bodyParser.json())
 app.use(methodOverride());                  			// simulate DELETE and PUT
 app.use(cookieParser());                  				// parse cookie
+
+morganBody(app)
 
 var router = express.Router(); 		
 
