@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-21">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="layer" type="long" />
+      <attribute id="1" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="FlightSegment/originPort" label="FlightSegment/originPort">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="FlightSegment/originPort" />
+        </attvalues>
+      </node>
+      <node id="FlightSegment/destPort" label="FlightSegment/destPort">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="FlightSegment/destPort" />
+        </attvalues>
+      </node>
+      <node id="web/ika" label="web/ika">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/ika" />
+        </attvalues>
+      </node>
+      <node id="web/hkg" label="web/hkg">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/hkg" />
+        </attvalues>
+      </node>
+      <node id="web/svo" label="web/svo">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/svo" />
+        </attvalues>
+      </node>
+      <node id="web/fra" label="web/fra">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/fra" />
+        </attvalues>
+      </node>
+      <node id="web/yul" label="web/yul">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/yul" />
+        </attvalues>
+      </node>
+      <node id="web/ams" label="web/ams">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/ams" />
+        </attvalues>
+      </node>
+      <node id="web/del" label="web/del">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/del" />
+        </attvalues>
+      </node>
+      <node id="web/fco" label="web/fco">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/fco" />
+        </attvalues>
+      </node>
+      <node id="web/bom" label="web/bom">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/bom" />
+        </attvalues>
+      </node>
+      <node id="web/getflightbyairportsanddeparturedate" label="web/getflightbyairportsanddeparturedate">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/getflightbyairportsanddeparturedate" />
+        </attvalues>
+      </node>
+      <node id="web/nrt" label="web/nrt">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/nrt" />
+        </attvalues>
+      </node>
+      <node id="web/cdg" label="web/cdg">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/cdg" />
+        </attvalues>
+      </node>
+      <node id="web/jfk" label="web/jfk">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/jfk" />
+        </attvalues>
+      </node>
+      <node id="web/syd" label="web/syd">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/syd" />
+        </attvalues>
+      </node>
+      <node id="web/lhr" label="web/lhr">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/lhr" />
+        </attvalues>
+      </node>
+      <node id="web/sin" label="web/sin">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="web/sin" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="FlightSegment/originPort" target="FlightSegment/destPort" id="0" weight="3" />
+      <edge source="FlightSegment/destPort" target="web/getflightbyairportsanddeparturedate" id="1" weight="1" />
+      <edge source="web/ika" target="web/hkg" id="2" weight="1" />
+      <edge source="web/ika" target="web/svo" id="3" weight="1" />
+      <edge source="web/ika" target="web/fra" id="4" weight="1" />
+      <edge source="web/ika" target="web/yul" id="5" weight="1" />
+      <edge source="web/ika" target="web/ams" id="6" weight="1" />
+      <edge source="web/ika" target="web/del" id="7" weight="1" />
+      <edge source="web/ika" target="web/fco" id="8" weight="1" />
+      <edge source="web/ika" target="web/bom" id="9" weight="1" />
+      <edge source="web/ika" target="web/nrt" id="10" weight="1" />
+      <edge source="web/ika" target="web/cdg" id="11" weight="1" />
+      <edge source="web/ika" target="web/jfk" id="12" weight="1" />
+      <edge source="web/ika" target="web/syd" id="13" weight="1" />
+      <edge source="web/ika" target="web/lhr" id="14" weight="1" />
+      <edge source="web/ika" target="web/sin" id="15" weight="1" />
+      <edge source="web/hkg" target="web/svo" id="16" weight="1" />
+      <edge source="web/hkg" target="web/fra" id="17" weight="1" />
+      <edge source="web/hkg" target="web/yul" id="18" weight="1" />
+      <edge source="web/hkg" target="web/ams" id="19" weight="1" />
+      <edge source="web/hkg" target="web/del" id="20" weight="1" />
+      <edge source="web/hkg" target="web/fco" id="21" weight="1" />
+      <edge source="web/hkg" target="web/bom" id="22" weight="1" />
+      <edge source="web/hkg" target="web/nrt" id="23" weight="1" />
+      <edge source="web/hkg" target="web/cdg" id="24" weight="1" />
+      <edge source="web/hkg" target="web/jfk" id="25" weight="1" />
+      <edge source="web/hkg" target="web/syd" id="26" weight="1" />
+      <edge source="web/hkg" target="web/lhr" id="27" weight="1" />
+      <edge source="web/hkg" target="web/sin" id="28" weight="1" />
+      <edge source="web/svo" target="web/fra" id="29" weight="1" />
+      <edge source="web/svo" target="web/yul" id="30" weight="1" />
+      <edge source="web/svo" target="web/ams" id="31" weight="1" />
+      <edge source="web/svo" target="web/del" id="32" weight="1" />
+      <edge source="web/svo" target="web/fco" id="33" weight="1" />
+      <edge source="web/svo" target="web/bom" id="34" weight="1" />
+      <edge source="web/svo" target="web/nrt" id="35" weight="1" />
+      <edge source="web/svo" target="web/cdg" id="36" weight="1" />
+      <edge source="web/svo" target="web/jfk" id="37" weight="1" />
+      <edge source="web/svo" target="web/syd" id="38" weight="1" />
+      <edge source="web/svo" target="web/lhr" id="39" weight="1" />
+      <edge source="web/svo" target="web/sin" id="40" weight="1" />
+      <edge source="web/fra" target="web/yul" id="41" weight="1" />
+      <edge source="web/fra" target="web/ams" id="42" weight="1" />
+      <edge source="web/fra" target="web/del" id="43" weight="1" />
+      <edge source="web/fra" target="web/fco" id="44" weight="1" />
+      <edge source="web/fra" target="web/bom" id="45" weight="1" />
+      <edge source="web/fra" target="web/nrt" id="46" weight="1" />
+      <edge source="web/fra" target="web/cdg" id="47" weight="1" />
+      <edge source="web/fra" target="web/jfk" id="48" weight="1" />
+      <edge source="web/fra" target="web/syd" id="49" weight="1" />
+      <edge source="web/fra" target="web/lhr" id="50" weight="1" />
+      <edge source="web/fra" target="web/sin" id="51" weight="1" />
+      <edge source="web/yul" target="web/ams" id="52" weight="1" />
+      <edge source="web/yul" target="web/del" id="53" weight="1" />
+      <edge source="web/yul" target="web/fco" id="54" weight="1" />
+      <edge source="web/yul" target="web/bom" id="55" weight="1" />
+      <edge source="web/yul" target="web/nrt" id="56" weight="1" />
+      <edge source="web/yul" target="web/cdg" id="57" weight="1" />
+      <edge source="web/yul" target="web/jfk" id="58" weight="1" />
+      <edge source="web/yul" target="web/syd" id="59" weight="1" />
+      <edge source="web/yul" target="web/lhr" id="60" weight="1" />
+      <edge source="web/yul" target="web/sin" id="61" weight="1" />
+      <edge source="web/ams" target="web/del" id="62" weight="1" />
+      <edge source="web/ams" target="web/fco" id="63" weight="1" />
+      <edge source="web/ams" target="web/bom" id="64" weight="1" />
+      <edge source="web/ams" target="web/nrt" id="65" weight="1" />
+      <edge source="web/ams" target="web/cdg" id="66" weight="1" />
+      <edge source="web/ams" target="web/jfk" id="67" weight="1" />
+      <edge source="web/ams" target="web/syd" id="68" weight="1" />
+      <edge source="web/ams" target="web/lhr" id="69" weight="1" />
+      <edge source="web/ams" target="web/sin" id="70" weight="1" />
+      <edge source="web/del" target="web/fco" id="71" weight="1" />
+      <edge source="web/del" target="web/bom" id="72" weight="1" />
+      <edge source="web/del" target="web/nrt" id="73" weight="1" />
+      <edge source="web/del" target="web/cdg" id="74" weight="1" />
+      <edge source="web/del" target="web/jfk" id="75" weight="1" />
+      <edge source="web/del" target="web/syd" id="76" weight="1" />
+      <edge source="web/del" target="web/lhr" id="77" weight="1" />
+      <edge source="web/del" target="web/sin" id="78" weight="1" />
+      <edge source="web/fco" target="web/bom" id="79" weight="1" />
+      <edge source="web/fco" target="web/nrt" id="80" weight="1" />
+      <edge source="web/fco" target="web/cdg" id="81" weight="1" />
+      <edge source="web/fco" target="web/jfk" id="82" weight="1" />
+      <edge source="web/fco" target="web/syd" id="83" weight="1" />
+      <edge source="web/fco" target="web/lhr" id="84" weight="1" />
+      <edge source="web/fco" target="web/sin" id="85" weight="1" />
+      <edge source="web/bom" target="web/nrt" id="86" weight="1" />
+      <edge source="web/bom" target="web/cdg" id="87" weight="1" />
+      <edge source="web/bom" target="web/jfk" id="88" weight="1" />
+      <edge source="web/bom" target="web/syd" id="89" weight="1" />
+      <edge source="web/bom" target="web/lhr" id="90" weight="1" />
+      <edge source="web/bom" target="web/sin" id="91" weight="1" />
+      <edge source="web/nrt" target="web/cdg" id="92" weight="1" />
+      <edge source="web/nrt" target="web/jfk" id="93" weight="1" />
+      <edge source="web/nrt" target="web/syd" id="94" weight="1" />
+      <edge source="web/nrt" target="web/lhr" id="95" weight="1" />
+      <edge source="web/nrt" target="web/sin" id="96" weight="1" />
+      <edge source="web/cdg" target="web/jfk" id="97" weight="1" />
+      <edge source="web/cdg" target="web/syd" id="98" weight="1" />
+      <edge source="web/cdg" target="web/lhr" id="99" weight="1" />
+      <edge source="web/cdg" target="web/sin" id="100" weight="1" />
+      <edge source="web/jfk" target="web/syd" id="101" weight="1" />
+      <edge source="web/jfk" target="web/lhr" id="102" weight="1" />
+      <edge source="web/jfk" target="web/sin" id="103" weight="1" />
+      <edge source="web/syd" target="web/lhr" id="104" weight="1" />
+      <edge source="web/syd" target="web/sin" id="105" weight="1" />
+      <edge source="web/lhr" target="web/sin" id="106" weight="1" />
+    </edges>
+  </graph>
+</gexf>

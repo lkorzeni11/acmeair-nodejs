@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2023-05-21">
+    <creator>NetworkX 2.8.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="layer" type="long" />
+      <attribute id="1" title="name" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Booking/customerId" label="Booking/customerId">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Booking/customerId" />
+        </attvalues>
+      </node>
+      <node id="FlightSegment/originPort" label="FlightSegment/originPort">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="FlightSegment/originPort" />
+        </attvalues>
+      </node>
+      <node id="FlightSegment/miles" label="FlightSegment/miles">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="FlightSegment/miles" />
+        </attvalues>
+      </node>
+      <node id="Flight/flightSegmentId" label="Flight/flightSegmentId">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Flight/flightSegmentId" />
+        </attvalues>
+      </node>
+      <node id="FlightSegment/destPort" label="FlightSegment/destPort">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="FlightSegment/destPort" />
+        </attvalues>
+      </node>
+      <node id="Customer/id" label="Customer/id">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Customer/id" />
+        </attvalues>
+      </node>
+      <node id="CustomerSession/customerId" label="CustomerSession/customerId">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="CustomerSession/customerId" />
+        </attvalues>
+      </node>
+      <node id="web/ika" label="web/ika">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/ika" />
+        </attvalues>
+      </node>
+      <node id="web/svo" label="web/svo">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/svo" />
+        </attvalues>
+      </node>
+      <node id="web/ams" label="web/ams">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/ams" />
+        </attvalues>
+      </node>
+      <node id="web/bom" label="web/bom">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/bom" />
+        </attvalues>
+      </node>
+      <node id="web/nrt" label="web/nrt">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/nrt" />
+        </attvalues>
+      </node>
+      <node id="web/syd" label="web/syd">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/syd" />
+        </attvalues>
+      </node>
+      <node id="web/fra" label="web/fra">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/fra" />
+        </attvalues>
+      </node>
+      <node id="web/getflightbyairportsanddeparturedate" label="web/getflightbyairportsanddeparturedate">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/getflightbyairportsanddeparturedate" />
+        </attvalues>
+      </node>
+      <node id="FlightSegment/id" label="FlightSegment/id">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="FlightSegment/id" />
+        </attvalues>
+      </node>
+      <node id="web/sin" label="web/sin">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/sin" />
+        </attvalues>
+      </node>
+      <node id="web/hkg" label="web/hkg">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/hkg" />
+        </attvalues>
+      </node>
+      <node id="web/yul" label="web/yul">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/yul" />
+        </attvalues>
+      </node>
+      <node id="web/fco" label="web/fco">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/fco" />
+        </attvalues>
+      </node>
+      <node id="web/jfk" label="web/jfk">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/jfk" />
+        </attvalues>
+      </node>
+      <node id="web/del" label="web/del">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/del" />
+        </attvalues>
+      </node>
+      <node id="web/user" label="web/user">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/user" />
+        </attvalues>
+      </node>
+      <node id="web/cdg" label="web/cdg">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/cdg" />
+        </attvalues>
+      </node>
+      <node id="web/lhr" label="web/lhr">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="web/lhr" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Booking/customerId" target="CustomerSession/customerId" id="0" weight="1" />
+      <edge source="Booking/customerId" target="web/user" id="1" weight="1" />
+      <edge source="Booking/customerId" target="Customer/id" id="2" weight="3" />
+      <edge source="FlightSegment/originPort" target="web/ika" id="3" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/hkg" id="4" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/svo" id="5" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/fra" id="6" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/yul" id="7" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/ams" id="8" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/del" id="9" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/fco" id="10" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/cdg" id="11" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/bom" id="12" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/getflightbyairportsanddeparturedate" id="13" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/nrt" id="14" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/jfk" id="15" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/syd" id="16" weight="1" />
+      <edge source="FlightSegment/originPort" target="FlightSegment/destPort" id="17" weight="3" />
+      <edge source="FlightSegment/originPort" target="web/lhr" id="18" weight="1" />
+      <edge source="FlightSegment/originPort" target="web/sin" id="19" weight="1" />
+      <edge source="Flight/flightSegmentId" target="FlightSegment/id" id="20" weight="3" />
+      <edge source="FlightSegment/destPort" target="web/ika" id="21" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/hkg" id="22" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/svo" id="23" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/fra" id="24" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/yul" id="25" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/ams" id="26" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/del" id="27" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/fco" id="28" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/cdg" id="29" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/bom" id="30" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/getflightbyairportsanddeparturedate" id="31" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/nrt" id="32" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/jfk" id="33" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/syd" id="34" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/lhr" id="35" weight="1" />
+      <edge source="FlightSegment/destPort" target="web/sin" id="36" weight="1" />
+      <edge source="Customer/id" target="CustomerSession/customerId" id="37" weight="3" />
+      <edge source="Customer/id" target="web/user" id="38" weight="1" />
+      <edge source="CustomerSession/customerId" target="web/user" id="39" weight="1" />
+      <edge source="web/ika" target="web/hkg" id="40" weight="1" />
+      <edge source="web/ika" target="web/svo" id="41" weight="1" />
+      <edge source="web/ika" target="web/fra" id="42" weight="1" />
+      <edge source="web/ika" target="web/yul" id="43" weight="1" />
+      <edge source="web/ika" target="web/ams" id="44" weight="1" />
+      <edge source="web/ika" target="web/del" id="45" weight="1" />
+      <edge source="web/ika" target="web/fco" id="46" weight="1" />
+      <edge source="web/ika" target="web/cdg" id="47" weight="1" />
+      <edge source="web/ika" target="web/bom" id="48" weight="1" />
+      <edge source="web/ika" target="web/getflightbyairportsanddeparturedate" id="49" weight="1" />
+      <edge source="web/ika" target="web/nrt" id="50" weight="1" />
+      <edge source="web/ika" target="web/jfk" id="51" weight="1" />
+      <edge source="web/ika" target="web/syd" id="52" weight="1" />
+      <edge source="web/ika" target="web/lhr" id="53" weight="1" />
+      <edge source="web/ika" target="web/sin" id="54" weight="1" />
+      <edge source="web/svo" target="web/hkg" id="55" weight="1" />
+      <edge source="web/svo" target="web/fra" id="56" weight="1" />
+      <edge source="web/svo" target="web/yul" id="57" weight="1" />
+      <edge source="web/svo" target="web/ams" id="58" weight="1" />
+      <edge source="web/svo" target="web/del" id="59" weight="1" />
+      <edge source="web/svo" target="web/fco" id="60" weight="1" />
+      <edge source="web/svo" target="web/cdg" id="61" weight="1" />
+      <edge source="web/svo" target="web/bom" id="62" weight="1" />
+      <edge source="web/svo" target="web/getflightbyairportsanddeparturedate" id="63" weight="1" />
+      <edge source="web/svo" target="web/nrt" id="64" weight="1" />
+      <edge source="web/svo" target="web/jfk" id="65" weight="1" />
+      <edge source="web/svo" target="web/syd" id="66" weight="1" />
+      <edge source="web/svo" target="web/lhr" id="67" weight="1" />
+      <edge source="web/svo" target="web/sin" id="68" weight="1" />
+      <edge source="web/ams" target="web/hkg" id="69" weight="1" />
+      <edge source="web/ams" target="web/fra" id="70" weight="1" />
+      <edge source="web/ams" target="web/yul" id="71" weight="1" />
+      <edge source="web/ams" target="web/del" id="72" weight="1" />
+      <edge source="web/ams" target="web/fco" id="73" weight="1" />
+      <edge source="web/ams" target="web/cdg" id="74" weight="1" />
+      <edge source="web/ams" target="web/bom" id="75" weight="1" />
+      <edge source="web/ams" target="web/getflightbyairportsanddeparturedate" id="76" weight="1" />
+      <edge source="web/ams" target="web/nrt" id="77" weight="1" />
+      <edge source="web/ams" target="web/jfk" id="78" weight="1" />
+      <edge source="web/ams" target="web/syd" id="79" weight="1" />
+      <edge source="web/ams" target="web/lhr" id="80" weight="1" />
+      <edge source="web/ams" target="web/sin" id="81" weight="1" />
+      <edge source="web/bom" target="web/hkg" id="82" weight="1" />
+      <edge source="web/bom" target="web/fra" id="83" weight="1" />
+      <edge source="web/bom" target="web/yul" id="84" weight="1" />
+      <edge source="web/bom" target="web/del" id="85" weight="1" />
+      <edge source="web/bom" target="web/fco" id="86" weight="1" />
+      <edge source="web/bom" target="web/cdg" id="87" weight="1" />
+      <edge source="web/bom" target="web/getflightbyairportsanddeparturedate" id="88" weight="1" />
+      <edge source="web/bom" target="web/nrt" id="89" weight="1" />
+      <edge source="web/bom" target="web/jfk" id="90" weight="1" />
+      <edge source="web/bom" target="web/syd" id="91" weight="1" />
+      <edge source="web/bom" target="web/lhr" id="92" weight="1" />
+      <edge source="web/bom" target="web/sin" id="93" weight="1" />
+      <edge source="web/nrt" target="web/hkg" id="94" weight="1" />
+      <edge source="web/nrt" target="web/fra" id="95" weight="1" />
+      <edge source="web/nrt" target="web/yul" id="96" weight="1" />
+      <edge source="web/nrt" target="web/del" id="97" weight="1" />
+      <edge source="web/nrt" target="web/fco" id="98" weight="1" />
+      <edge source="web/nrt" target="web/cdg" id="99" weight="1" />
+      <edge source="web/nrt" target="web/getflightbyairportsanddeparturedate" id="100" weight="1" />
+      <edge source="web/nrt" target="web/jfk" id="101" weight="1" />
+      <edge source="web/nrt" target="web/syd" id="102" weight="1" />
+      <edge source="web/nrt" target="web/lhr" id="103" weight="1" />
+      <edge source="web/nrt" target="web/sin" id="104" weight="1" />
+      <edge source="web/syd" target="web/hkg" id="105" weight="1" />
+      <edge source="web/syd" target="web/fra" id="106" weight="1" />
+      <edge source="web/syd" target="web/yul" id="107" weight="1" />
+      <edge source="web/syd" target="web/del" id="108" weight="1" />
+      <edge source="web/syd" target="web/fco" id="109" weight="1" />
+      <edge source="web/syd" target="web/cdg" id="110" weight="1" />
+      <edge source="web/syd" target="web/getflightbyairportsanddeparturedate" id="111" weight="1" />
+      <edge source="web/syd" target="web/jfk" id="112" weight="1" />
+      <edge source="web/syd" target="web/lhr" id="113" weight="1" />
+      <edge source="web/syd" target="web/sin" id="114" weight="1" />
+      <edge source="web/fra" target="web/hkg" id="115" weight="1" />
+      <edge source="web/fra" target="web/yul" id="116" weight="1" />
+      <edge source="web/fra" target="web/del" id="117" weight="1" />
+      <edge source="web/fra" target="web/fco" id="118" weight="1" />
+      <edge source="web/fra" target="web/cdg" id="119" weight="1" />
+      <edge source="web/fra" target="web/getflightbyairportsanddeparturedate" id="120" weight="1" />
+      <edge source="web/fra" target="web/jfk" id="121" weight="1" />
+      <edge source="web/fra" target="web/lhr" id="122" weight="1" />
+      <edge source="web/fra" target="web/sin" id="123" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/hkg" id="124" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/yul" id="125" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/del" id="126" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/fco" id="127" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/cdg" id="128" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/jfk" id="129" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/lhr" id="130" weight="1" />
+      <edge source="web/getflightbyairportsanddeparturedate" target="web/sin" id="131" weight="1" />
+      <edge source="web/sin" target="web/hkg" id="132" weight="1" />
+      <edge source="web/sin" target="web/yul" id="133" weight="1" />
+      <edge source="web/sin" target="web/del" id="134" weight="1" />
+      <edge source="web/sin" target="web/fco" id="135" weight="1" />
+      <edge source="web/sin" target="web/cdg" id="136" weight="1" />
+      <edge source="web/sin" target="web/jfk" id="137" weight="1" />
+      <edge source="web/sin" target="web/lhr" id="138" weight="1" />
+      <edge source="web/hkg" target="web/yul" id="139" weight="1" />
+      <edge source="web/hkg" target="web/del" id="140" weight="1" />
+      <edge source="web/hkg" target="web/fco" id="141" weight="1" />
+      <edge source="web/hkg" target="web/cdg" id="142" weight="1" />
+      <edge source="web/hkg" target="web/jfk" id="143" weight="1" />
+      <edge source="web/hkg" target="web/lhr" id="144" weight="1" />
+      <edge source="web/yul" target="web/del" id="145" weight="1" />
+      <edge source="web/yul" target="web/fco" id="146" weight="1" />
+      <edge source="web/yul" target="web/cdg" id="147" weight="1" />
+      <edge source="web/yul" target="web/jfk" id="148" weight="1" />
+      <edge source="web/yul" target="web/lhr" id="149" weight="1" />
+      <edge source="web/fco" target="web/del" id="150" weight="1" />
+      <edge source="web/fco" target="web/cdg" id="151" weight="1" />
+      <edge source="web/fco" target="web/jfk" id="152" weight="1" />
+      <edge source="web/fco" target="web/lhr" id="153" weight="1" />
+      <edge source="web/jfk" target="web/del" id="154" weight="1" />
+      <edge source="web/jfk" target="web/cdg" id="155" weight="1" />
+      <edge source="web/jfk" target="web/lhr" id="156" weight="1" />
+      <edge source="web/del" target="web/cdg" id="157" weight="1" />
+      <edge source="web/del" target="web/lhr" id="158" weight="1" />
+      <edge source="web/cdg" target="web/lhr" id="159" weight="1" />
+    </edges>
+  </graph>
+</gexf>
